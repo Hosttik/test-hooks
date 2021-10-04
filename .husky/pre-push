@@ -1,5 +1,0 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-echo "pre push test"
-echo "params $1, $2, $3, $4"

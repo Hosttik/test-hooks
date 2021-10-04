@@ -1,5 +1,0 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-echo '123'
-echo "TEST PRERELOEAS $0 $1 $2 $3 $4 $5"
