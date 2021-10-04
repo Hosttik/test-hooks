@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "post merge test"
+echo "params $1, $2, $3, $4"
