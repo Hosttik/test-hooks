@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo 'start 2';
+echo 'start 3';
 one=$1
 two=$2
 three=$3
