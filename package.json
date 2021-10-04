@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/Hosttik/test-hooks/issues"
   },
-  "homepage": "https://github.com/Hosttik/test-hooks#readme"
+  "homepage": "https://github.com/Hosttik/test-hooks#readme",
+  "devDependencies": {
+    "husky": "^3.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "bash ./test.bash"
+    }
+  }
 }
