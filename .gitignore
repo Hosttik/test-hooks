@@ -1,0 +1,30 @@
+# 2 строчки после комментариев необходимы чтобы включить все что входит в папку idea
+# Но исключить файл webResources.xml из игнора
+# (чтобы указывать папку рута проекта и пути корректно работали)
+.idea/*
+!.idea/webResources.xml
+# По аналогии как выше - можно добавить и другие исключения с настройками idea
+.vscode/
+dist
+sprite.png
+sprite_4096x2160.png
+sprite_1920x1080.png
+sprite_1280x720.png
+sprite_4096x2160.sass
+sprite_1920x1080.sass
+sprite_1280x720.sass
+node_modules
+ambassador/whiteLableConfig.js
+ambassador/player/player.js
+ambassador/storage/platformStorage.js
+ambassador/systemObject/systemObject.js
+npm-debug.log
+yarn-error.log
+stats.json
+*.swp
+.DS_Store
+deploy-packages
+.cache-loader
+scale-icons
+docs
+defaultExports.sh
