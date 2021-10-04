@@ -1,8 +1,0 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-VERSION=$1
-ORIGIN=$2
-BRANCH=$3
-
-echo "params:$VERSION, $ORIGIN, $BRANCH"
-exit 1;
