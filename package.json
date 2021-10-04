@@ -18,5 +18,10 @@
   "homepage": "https://github.com/Hosttik/test-hooks#readme",
   "devDependencies": {
     "husky": "^7.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-flow-release-finish": "bash ./.husky/pre-flow-release-finish"
+    }
   }
 }
